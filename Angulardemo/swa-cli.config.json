@@ -1,0 +1,19 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "swa-run": {
+      "appLocation": ".",
+      "outputLocation": "dist\\angulardemo",
+      "appBuildCommand": "npm run build",
+      "run": "npm start",
+      "appDevserverUrl": "http://localhost:4200"
+    },
+    "angulardemo": {
+      "appLocation": ".",
+      "outputLocation": "dist\\angulardemo",
+      "appBuildCommand": "npm run build",
+      "run": "npm start",
+      "appDevserverUrl": "http://localhost:4200"
+    }
+  }
+}
