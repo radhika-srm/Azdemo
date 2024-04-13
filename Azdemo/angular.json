@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Angulardemo": {
+    "Azdemo": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angulardemo",
+            "outputPath": "dist/azdemo",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Angulardemo:build:production"
+              "buildTarget": "Azdemo:build:production"
             },
             "development": {
-              "buildTarget": "Angulardemo:build:development"
+              "buildTarget": "Azdemo:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Angulardemo:build"
+            "buildTarget": "Azdemo:build"
           }
         },
         "test": {
@@ -98,6 +98,6 @@
     }
   },
   "cli": {
-    "analytics": "741e6d63-7764-457c-ad08-040ea723db18"
+    "analytics": "f2c5cad1-be94-41ae-a273-8e918e8741b6"
   }
 }
